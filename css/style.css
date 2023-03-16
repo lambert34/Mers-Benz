@@ -203,6 +203,33 @@ margin-left: 30px;
     margin-bottom: 50px;
 }
 
+/* ---------SECTION---------------- */
+
+.concept {
+    padding-top: 150px;
+    margin-bottom: 150px;
+}
+
+.concept__inner {
+    max-width: 900px;
+    margin-left: auto;
+}
+.concept__title {
+}
+.section__title {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color: #F402A2;
+    font-size: 18px;
+    font-family: 'Corporate-A-Bold';
+}
+.concept__text {
+    font-size: 24px;
+    margin-bottom: 25px;
+    line-height: 120%;
+}
+.concept__img {
+}
 
 
 /* -----------------FOOTER------------- */
