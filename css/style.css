@@ -282,6 +282,7 @@ margin-left: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     width: 100%;
     font-size: 18px;
     line-height: 120%;
@@ -292,6 +293,20 @@ margin-left: 30px;
     border: 1px solid #F402A2;
     transition: all .3s;
 }
+
+.video__btn:hover {
+    color: #53A1CB;
+    border: 1px solid #53A1CB;
+}
+
+.video__btn:hover svg {
+    fill: #53A1CB;
+}
+
+.video__btn svg {
+    transition: all .3s;
+}
+
 
 
 
