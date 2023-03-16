@@ -272,6 +272,28 @@ margin-left: 30px;
 }
 
 
+.video {
+    margin-bottom: 150px;
+}
+.video__img {
+    margin-bottom: 25px;
+}
+.video__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 18px;
+    line-height: 120%;
+    color: #F402A2;
+    text-transform: uppercase;
+    font-family: 'Corporate-A-Bold';
+    padding: 14px;
+    border: 1px solid #F402A2;
+    transition: all .3s;
+}
+
+
 
 /* -----------------FOOTER------------- */
 .footer {
