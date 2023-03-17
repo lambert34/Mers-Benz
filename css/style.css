@@ -359,8 +359,53 @@ margin-left: 30px;
 
 .design-slider {
     display: flex;
+    padding-bottom: 25px;
 }
 .design-slider__item {
+    margin: 0 30px;
+}
+
+.slick-track {
+    margin-left: -30px;
+}
+
+.arrow {
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    bottom: 0;
+    left: 50%;
+}
+
+.arrow-left {
+    transform: translateX(-80px);
+}
+
+.arrow-right {
+    transform: translateX(30px);
+}
+
+/* ------------Last section---------- */
+
+.design__box {
+    display: flex;
+    max-width: 590px;
+    padding: 0 10px;
+    gap: 60px;
+    margin: 150px auto;
+}
+
+.design__box-column {
+    width: 255px;
+}
+
+.design__box-text {
+    margin-bottom: 15px;
+}
+
+.design__img {
+    max-width: 100%;
+    display: block;
 }
 
 /* -----------------FOOTER------------- */
