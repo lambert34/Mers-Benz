@@ -59,7 +59,7 @@ a:not([class]) {
 
 /* Упрощаем работу с изображениями */
 img {
-  max-width: 100%;
+  /* max-width: 100%; */
   display: block;
 }
 
@@ -307,8 +307,48 @@ margin-left: 30px;
     transition: all .3s;
 }
 
+/* ---------BIG Section Design */
 
 
+.design {
+}
+.container {
+}
+.design__interior {
+    display: grid;
+    grid-template-columns: 255px 255px auto 330px;
+    grid-template-rows: auto auto;
+    gap: 14px 44px;
+}
+
+.design__cell {
+
+}
+
+
+.design__cell-one {
+    grid-row: 1/3;
+}
+
+.design__cell-two {
+    grid-row-end: -1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.design__cell-three {
+    grid-column-end: -1;
+    grid-row-end: -1;
+    display: flex;
+    align-items: flex-end;
+}
+.section__title {
+}
+.design__cell-text {
+    margin-bottom: 15px;
+}
+.design__interior-img {
+}
 
 /* -----------------FOOTER------------- */
 .footer {
