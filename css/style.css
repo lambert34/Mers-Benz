@@ -41,7 +41,7 @@ body {
   line-height: 120%;
   font-size: 16px;
   font-weight: 400;
-  background: #070A1B;
+  background: linear-gradient(180deg, #070A1B 0%, #2A3170 100%);
   color: #fff;
 font-family: 'Roboto Condensed', sans-serif;
 }
@@ -110,6 +110,10 @@ button {
     border: none;
     padding: 0;
     cursor: pointer;
+}
+
+.header {
+    background: #070A1B;
 }
 
 .header__logo {
@@ -352,6 +356,7 @@ margin-left: 30px;
 
 /* -----------------FOOTER------------- */
 .footer {
+    background: #070A1B;
 }
 
 .footer__inner {
